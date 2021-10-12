@@ -1,4 +1,4 @@
-# WallpaperDownloader
+# Wallpaper Downloader :rocket:
 
 This is a script that takes the most voted wallpaper in the subreddit r/wallpapers in 24 hours, downloads the .json of that page, parses the document to get the link of the image and then, it downloads the image and sets it as your wallpaper.
 

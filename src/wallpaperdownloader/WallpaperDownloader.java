@@ -1,4 +1,3 @@
-
 package wallpaperdownloader;
 
 import com.sun.jna.Library;

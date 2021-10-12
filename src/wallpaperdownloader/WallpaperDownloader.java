@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package wallpaperdownloader;
 
 import com.sun.jna.Library;
@@ -33,10 +29,7 @@ import org.json.simple.JSONArray;
 
 
 
-/**
- *
- * @author Alonso
- */
+
 public class WallpaperDownloader {
 
     //Defining the interface to use it later to set the image downloaded
@@ -70,9 +63,8 @@ public class WallpaperDownloader {
         
 
 
-        //Getting the document
+        //Getting the document and then downloading and setting the wallpaper
         getDocument();
-        //It's obvious, isn't it?
         getImageandSetWallpaper(s);
         
         
